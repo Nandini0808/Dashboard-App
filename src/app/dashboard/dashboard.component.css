@@ -1,0 +1,131 @@
+/* .grid-container {
+  margin: 20px;
+}
+
+.dashboard-card {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+.more-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.dashboard-card-content {
+  text-align: center;
+} */
+/*----------------------------------------*/
+/* .main-card-body{
+  width: 344px;
+  height: 204px;
+  }
+  mat-card-title{
+      background-color: lightblue;
+      width: 344px;
+      height: 51px;    
+  }
+  
+  mat-card-content p{
+      font-size: 20px;
+  }
+  
+  mat-card-actions button{
+      background-color: #293879;
+      color: #fff;
+      height: 48px;
+      width: 143px;
+      font-size:  20px;
+     
+  }
+  mat-form-field input{
+      width: 143px;
+      height: 40px;
+      font-size: 25px;
+      border-radius: 5px;
+      box-shadow:5px rgb(202, 202, 231) ;
+      opacity: 0.3;
+  } */
+  /****************========================================*************/
+  .heading p{
+    font-size: 20px;
+  }
+    .main-card-body1{
+      width: 288px;
+      height: 204px;
+      background: #FEFEFE 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #07070710;
+  border: 1px solid #E7E8E9;
+  border-radius: 10px;
+  opacity: 1;
+      }
+      .mat-card-title1{
+     font-family: sans-serif;
+     font-weight: bold;
+        width:288px;
+      height: 51px;  
+      background: #006FFF29 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #07070710;
+  border-radius: 10px 10px 0px 0px;
+  opacity: 0.4; 
+    }
+    mat-card-content p{
+      font-size: 20px;
+      color:#717171;
+  
+  }
+  mat-card-actions button{
+   
+    color: #fff;
+    height: 48px;
+    width: 143px;
+    font-size:  20px;
+    background: var(--unnamed-color-293879) 0% 0% no-repeat padding-box;
+  background: #293879 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1
+   
+  }
+  input{
+    width: 143px;
+    height: 40px;
+    font-size: 25px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0.5px solid #717171;
+  border-radius: 5px;
+  opacity: 1;
+  border: 0.5px solid
+   
+  }
+  
+  .div1 span{
+    font-size: 10px;
+  }
+  .cnttitle3 p{
+    font-family: sans-serif;
+    font-weight:600;
+    font-size: 12px;
+    color: #2c2c2c;
+    display:flex;
+  } 
+  .dashboard-card{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #6E89FF1A;
+  border-radius: 20px;
+  opacity: 1;
+  }
+  .footerimg{
+    margin-left: 90%;
+  }
+  table th tr td{
+    font-size: 10px;
+    
+  }
+  .title span{
+    font-size: 20px ;
+    font-weight: bold;
+  }

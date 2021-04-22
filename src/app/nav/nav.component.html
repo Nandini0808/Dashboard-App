@@ -1,0 +1,59 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+
+<!-- //********************Logo************************** -->
+    <mat-toolbar class="toolbar"><img src="/assets/logo.svg" alt=""></mat-toolbar>
+    <mat-divider></mat-divider>
+<!-- //*****************cross symbol********************* -->
+<br> <div><img src="/assets/cross.svg"></div>
+
+<!-- //******************sidebar menu********************/  -->
+    <mat-nav-list>
+      <a mat-list-item href="#"><img src="/assets/wallet.svg">Wallet</a>
+      <a mat-list-item href="#"><img src="/assets/wolfpack.svg">Wolfpack</a>
+      <a mat-list-item href="#"><img src="/assets/portfolio.svg">Portfolio</a>
+      <a mat-list-item href="#"><img src="/assets/transparency.svg">Transparency</a>
+      <a mat-list-item href="#"><img src="/assets/AllProperties.svg">All Properties</a>
+    </mat-nav-list>
+
+  </mat-sidenav>
+
+  <!-- //*****************upper navigationbar*****************/ -->
+  <mat-sidenav-content >
+    <mat-toolbar style="background-color: #fff;">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async">
+        <mat-icon aria-label="Side nav toggle icon"></mat-icon>
+      </button>
+<!--***********************upper navigation bar menu**************-->
+      <mat-tab-group >
+        <mat-tab label="Overview">  </mat-tab>
+        <mat-tab label="Savings"> </mat-tab>
+        <mat-tab label="Investments"> </mat-tab>
+      </mat-tab-group>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <div class="menu-div">
+        <ul>
+        <img src="/assets/Message.svg" alt="">&nbsp;
+        <img src="/assets/Notification.svg" alt="">&nbsp;&nbsp;
+        <mat-form-field class="dropdown" appearance="fill">
+          <mat-label>Robert Downey</mat-label>
+          <mat-select>
+            <mat-option  value="one">Portfolio</mat-option>
+            <mat-option value="two">Update Account</mat-option>
+            <mat-option value="two">Log Out</mat-option>
+          </mat-select>
+        </mat-form-field>
+        </ul>
+      </div>
+    </mat-toolbar>
+    <!-- Add Content Here -->
+    <app-dashboard></app-dashboard>
+  </mat-sidenav-content>
+</mat-sidenav-container>

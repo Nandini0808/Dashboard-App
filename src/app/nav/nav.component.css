@@ -1,0 +1,77 @@
+.sidenav-container {
+  height: 100%;
+  background-color: #FFFFFF;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+
+
+.toolbar img{  /* Logo  sidebar*/
+  top: 45px;
+  left: 127px;
+  width: 122px;
+  height: 48px;
+  background: transparent  0% 0% no-repeat padding-box;
+  opacity: 1;
+ margin-top: 6rem;
+ 
+ padding-bottom: 5rem;
+}
+.sidenav{ /*whole sidebar*/
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 812px;
+  background: var(--unnamed-color-293879) 0% 0% no-repeat padding-box;
+  background: #293879 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+mat-nav-list a{ /*sidebar menu content name*/
+text-align: center;
+font: normal normal normal 17px/23px Open Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+
+}
+
+mat-nav-list img{  /*sidebar menu images */
+  top: 240px;
+left: 44px;
+width: 80px;
+height: 22px;
+background: transparent  0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+mat-nav-list  a:hover{ /*sidebar menu hover effect*/
+  background: #FFFFFF  0% 0% no-repeat padding-box;;
+  color:black;
+  border-radius: 10px 0px 0px 10px;
+}
+.menu-div ul{
+ text-align :left ;
+}
+.dropdown{
+ width: 160px;
+
+}
+mat-label{
+  font-size: 15px;
+  font-family: sans-serif;
+
+}

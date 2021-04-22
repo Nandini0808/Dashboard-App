@@ -1,0 +1,264 @@
+
+<!-- <div class="grid-container">
+  <h1 class="mat-h1">Dashboard</h1>
+  <mat-grid-list cols="2" rowHeight="350px">
+    <mat-grid-tile *ngFor="let card of cards | async" [colspan]="card.cols" [rowspan]="card.rows">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <mat-card-title>
+            {{card.title}}
+            <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu" xPosition="before">
+              <button mat-menu-item>Expand</button>
+              <button mat-menu-item>Remove</button>
+            </mat-menu>
+          </mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="dashboard-card-content">
+          <div>Card Content Here</div>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div> -->
+
+<!-- <div class="grid-container">
+  <h5 class="mat-h1">Totla Balance</h5>
+  <mat-grid-list cols="3"> -->
+
+    <!-- /****************first card*****************/ -->
+    <!-- <mat-grid-tile>
+      <mat-card class="dashboard-card1">
+        <mat-card-header>
+          <mat-card-title class="title1">checking</mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="dashboard-card-content">
+          <div>Card Content Here</div>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile> -->
+    <!-- <app-card></app-card> -->
+ <!-- /****************secondcard*****************/ -->
+  <!-- <mat-grid-tile>
+    <mat-card class="dashboard-card2">
+      <mat-card-header>
+        <mat-card-title class="title2">Transfer</mat-card-title>
+      </mat-card-header>
+      <mat-card-content class="dashboard-card-content">
+        <div>Card Content Here</div>
+       
+      </mat-card-content>
+    </mat-card>
+  <!-- </mat-grid-tile> -->  <!--<app-card></app-card>> -->
+ <!-- /****************Third card*****************/ -->
+ <!-- <app-card></app-card> -->
+  <!-- <mat-grid-tile colspan="1" rowspan="2">
+    <mat-card class="dashboard-card">
+      <mat-card-header>
+        <mat-card-title class="title3">Available Assets</mat-card-title>
+      </mat-card-header><hr>
+      <mat-card-content class="dashboard-card-content">
+        <div class="cnttitle3">
+          <p>Potential Covid-19 Cure: Clinical Trial<img src="/assets/Property.png"></p>
+          <hr>
+        </div>
+        <div class="cnttitle3">
+          <p>Potential Covid-19 Cure: Clinical Trial<img src="/assets/Img 1.png"></p>
+          <hr>
+        </div>
+        <div class="cnttitle3">
+          <p>Potential Covid-19 Cure: Clinical Trial<img src="/assets/Img 2.png"></p>
+          <hr>
+        </div>
+        <div class="cnttitle3">
+          <p>Potential Covid-19 Cure: Clinical Trial<img src="/assets/Img 4.png"></p>
+          <hr>
+        </div>
+        <div class="cnttitle3">
+          <p>Potential Covid-19 Cure: Clinical Trial<img src="/assets/Property.png"></p>
+          <hr>
+        </div>
+        
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile> -->
+ <!-- /****************fouthcard*****************/ -->
+  <!-- <mat-grid-tile cols="1" rows="1">
+    <mat-card class="dashboard-card">
+      <mat-card-header>
+        <mat-card-title class="title4">Savings</mat-card-title>
+      </mat-card-header>
+      <mat-card-content class="dashboard-card-content">
+        <div>Card Content Here</div>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile> -->
+  <!-- <app-card></app-card> -->
+   
+ <!-- /****************fifth card*****************/ -->
+  <!-- <mat-grid-tile cols="1" rows="1">
+    <mat-card class="dashboard-card">
+      <mat-card-header>
+        <mat-card-title class="title5">Investments</mat-card-title>
+      </mat-card-header>
+      <mat-card-content class="dashboard-card-content">
+        <div>Card Content Here</div>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile> -->
+  <!-- <app-card></app-card>
+  
+  </mat-grid-list> -->
+  
+  <div class="heading">
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total Balance&nbsp;&nbsp;<img src="/assets/i-button.svg">&nbsp;&nbsp; : &nbsp;&nbsp;$60.00
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+      Wallet Address&nbsp;&nbsp;&nbsp;<img src="/assets/barcode.svg">
+    </p>
+  </div>
+  
+     <mat-grid-list cols="3" rowHeight="3:2" >
+  
+      <!-- /**********card1*************/ -->
+       <mat-grid-tile rowspan="1" colspan="1">
+        <mat-card class="main-card-body1">
+          <mat-card-title class="mat-card-title1">Checking</mat-card-title>
+          <mat-card-content>
+            <p>
+                &nbsp;&nbsp; Cash &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;$20.00<br>
+                <br>&nbsp;&nbsp;&nbsp;Buy coins
+            </p>
+          </mat-card-content>
+          <mat-card-actions >
+            <input type="number" placeholder="0">
+            <button mat-flat-button >Buy</button>
+          </mat-card-actions>
+        </mat-card>
+        
+       </mat-grid-tile>
+  
+  <!-- /**********card2*************/ -->
+        <mat-grid-tile rowspan="1" colspan="1" >
+        <mat-card class="main-card-body1">
+          <mat-card-title class="mat-card-title1">Transfer</mat-card-title>
+          <mat-card-content>
+            <p>
+                &nbsp;&nbsp; Paypal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bank Account<br>
+                <br>&nbsp;&nbsp;&nbsp;sell coins
+            </p>
+          </mat-card-content>
+          <mat-card-actions >
+            <input type="number" placeholder="0">
+            <button mat-flat-button >sell</button>
+          </mat-card-actions>
+        </mat-card>
+        
+      </mat-grid-tile>
+  
+      <!-- /**********card3*************/ -->
+       <mat-grid-tile rowspan="2" colspan="1" >
+      
+      <mat-card class="dashboard-card">
+        
+          <mat-card-title class="title3">Available Assets</mat-card-title>
+        <mat-divider></mat-divider>
+        <mat-card-content class="dashboard-card-content">
+          <div class="cnttitle3">
+            <p>Potential Covid-19 Cure: Clinical Trial<img src="/assets/Property.png"></p>
+            <mat-divider></mat-divider>
+          </div>
+          <div class="cnttitle3">
+            <p>Potential Covid-19 Cure: Clinical Trial<img src="/assets/Img 1.png"></p>
+            <mat-divider></mat-divider>
+          </div>
+          <div class="cnttitle3">
+            <p>Potential Covid-19 Cure: Clinical Trial<img src="/assets/Img 2.png"></p>
+            <mat-divider></mat-divider>
+          </div>
+          <div class="cnttitle3">
+            <p>Potential Covid-19 Cure: Clinical Trial<img src="/assets/Img 4.png"></p>
+            <mat-divider></mat-divider>
+          </div>
+          <div class="cnttitle3">
+            <p>Potential Covid-19 Cure: Clinical Trial<img src="/assets/Property.png"></p>
+            <mat-divider></mat-divider>
+          </div>
+          
+        </mat-card-content>
+      </mat-card>
+      </mat-grid-tile>
+  
+       <!-- /**********card4*************/ -->
+  
+       <mat-grid-tile rowspan="1" colspan="1"  >
+  
+        <mat-card class="main-card-body4">
+          <mat-card-title class="mat-card-title1">Savings</mat-card-title>
+          <mat-card-content class="mat-card-content4">
+            <p>
+                &nbsp;&nbsp; Invested &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;$20.00<br>
+                <br>&nbsp;&nbsp;&nbsp;Total Payout&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;$27.00
+            </p>
+          </mat-card-content>
+          
+        </mat-card>
+  
+       </mat-grid-tile>
+  
+       <!-- /**********card5*************/ -->
+       <mat-grid-tile rowspan="1" colspan="1"  >
+  
+        <mat-card class="main-card-body5">
+          <mat-card-title class="mat-card-title1">Investments</mat-card-title>
+          <mat-card-content class="mat-card-content4">
+            <p>
+              &nbsp;&nbsp; Invested &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;$20.00<br>
+              <br>&nbsp;&nbsp;&nbsp;Total Payout&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;$20.00
+            </p>
+          </mat-card-content>
+          
+        </mat-card>
+       </mat-grid-tile>
+     </mat-grid-list>
+  <div class="title"><span>Recent Transaction</span></div>
+     <table  cellspacing="30" width="500rem">
+      <thead>
+        <tr >
+          <th >Date</th>
+          <th>Transaction</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      
+      <tbody>
+        <tr>
+          <td>09 Mar 2020</td>
+          <td>20922 Avalon drive</td>
+          <td style="color:#05CF5B">$10.00</td>
+        </tr>
+        <tr>
+          <td>09 Mar 2020</td>
+          <td>20922 Avalon drive</td>
+          <td>-$1000.00</td>
+        </tr>
+        <tr>
+          <td>09 Mar 2020</td>
+          <td>Freedom Coin</td>
+          <td style="color:#05CF5B">$10.00</td>
+        </tr>
+        <tr>
+          <td>09 Mar 2020</td>
+          <td>Freedom Coin</td>
+          <td >-$500.00</td>
+        </tr>
+        <tr>
+          <td>09 Mar 2020</td>
+          <td>Profit Wolfpack </td>
+          <td >-$400</td>
+        </tr>
+      </tbody>
+    </table>
+     <img class="footerimg" src="/assets/200 x 200.png"> 
